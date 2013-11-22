@@ -11,7 +11,7 @@
 
 <style type="text/css">
 html {
-                background-image:  url(../img/gr-11.png),url(../img/gr-21.png),url(../img/gr-31.png);
+                background-image:  url(../img/gr-31.png),url(../img/gr-71.png),url(../img/gr-11.png);
                 background-size:  auto, auto, auto;
                 padding:0;margin:0;
                 height:100%;
@@ -22,15 +22,7 @@ html {
 
            
 </head>
-          <!--  {% include menu.html %}
-              {{ page.title }}
-                -->
-
   <body>
-
-        <h1>{{ page.title }}</h1>
-        
-        <p class="lead">{{ content }} Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
   </body>
 </html>
