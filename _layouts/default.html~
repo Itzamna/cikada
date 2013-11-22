@@ -10,9 +10,9 @@
     <!-- Le styles -->
 
 <style type="text/css">
-html {
+body {
 background-color:#7E756E;
-                background-image:  url(../img/gf-131.png),url(../img/ge-113.png),url(../img/ge-71.png),url(../img/ge-1.png);
+                background-image:  url(../img/gg-131.png),url(../img/gg-113.png),url(../img/gg-71.png),url(../img/gf-1.png);
                 background-size:  auto, auto, auto;
                 padding:0;margin:0;
                 height:100%;
@@ -31,7 +31,7 @@ z-index:-1;
 	min-height: 1000px;
 	height: auto !important;
 	height: 100%;
-  background:transparent url('../img/hh1.jpg') no-repeat left 0px fixed;
+  background:transparent url('../img/hh3.png') no-repeat left 0px fixed;
 }
 #left-wr {
 	width: 100%;
@@ -39,7 +39,7 @@ z-index:-1;
 	min-height: 1000px;
 	height: auto !important;
 	height: 100%;
-  background:transparent url('../img/hh2.jpg') no-repeat right 0px fixed;
+  background:transparent url('../img/hh5.png') no-repeat right 0px fixed;
 }
     </style>
 
