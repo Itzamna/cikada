@@ -11,21 +11,48 @@
 
 <style type="text/css">
 html {
-                background-image:  url(../img/gr-31.png),url(../img/gr-71.png),url(../img/gr-11.png);
+background-color:#7E756E;
+                background-image:  url(../img/gf-131.png),url(../img/ge-113.png),url(../img/ge-71.png),url(../img/ge-1.png);
                 background-size:  auto, auto, auto;
                 padding:0;margin:0;
                 height:100%;
                 width:8000px
+padding: 0;
+margin: 0;
+height: 100%;
+position:relative;
+background-attachment: fixed;
+background-repeat: repeat-x;
+z-index:-1;
 }
-
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 1000px;
+	height: auto !important;
+	height: 100%;
+  background:transparent url('../img/hh1.jpg') no-repeat left 0px fixed;
+}
+#left-wr {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 1000px;
+	height: auto !important;
+	height: 100%;
+  background:transparent url('../img/hh2.jpg') no-repeat right 0px fixed;
+}
     </style>
 
            
 </head>
   <body>
+<!--<div id="wrapper">
+<div id="left-wr">-->
 {{ page.title }}
 {{ content }}
 {% include menu.html %}
+<!--</div>
+</div>-->
   </body>
 </html>
 
